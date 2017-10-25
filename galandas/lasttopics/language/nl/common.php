@@ -2,12 +2,11 @@
 /**
 *
 * @package phpBB Extension - Advanced Active Topics
-* @copyright (c) 2016 Galandas
+* @copyright (c) 2017 Galandas
 * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
-
 /**
 * DO NOT CHANGE
 */
@@ -19,7 +18,6 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -35,15 +33,14 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste:
 // ’ » “ ” …
 //
-
 $lang = array_merge($lang, array(
 	'ACP_LAST_TOPIC'					=> 'Geavanceerde Actieve Onderwerpen',
-	'ACP_LAST_TOPIC_EXPLAIN'		    => 'Extensie Geavanceerde Actieve Onderwerpen door <a href="http://phpbb3world.altervista.org"><strong>Galandas</strong></a>. Nederlandse vertaling door door <a href="https://www.froddelpower.be"><strong>Solidjeuh</strong></a>',
+	'ACP_LAST_TOPIC_EXPLAIN'		    => 'Extensie Geavanceerde Actieve Onderwerpen door <a href="http://phpbb3world.altervista.org" target="_blank"><strong>Galandas</strong></a>.<br />Nederlandse vertaling door <a href="https://www.froddelpower.be" target="_blank"><strong>Solidjeuh</strong></a>',
     'ACP_LAST_TOPIC_SETTINGS'			=> 'Inschakelen Uitschakelen',
 	'ACP_LAST_TOPIC_CONF'				=> 'Configuratie',
     'ACP_LAST_TOPIC_CONFS'			    => 'Instellingen',
-	'ACP_LAST_TOPIC_DONATE'			    => '<a href="https://www.paypal.me/Galandas"><strong>Doneer Galandas</strong></a>',
-	'ACP_LAST_TOPIC_DONATE_EXPLAIN'	    => 'Indien je deze extensie leuk vind, overweeg dan een donatie voor een pizza',	
+	'ACP_LAST_TOPIC_DONATE'			    => '<a href="https://www.paypal.me/Galandas" target="_blank"><strong>Doneer Galandas</strong></a> -_- <a href="https://www.paypal.me/solidjeuh" target="_blank"><strong>Doneer Solidjeuh.</strong></a>',
+	'ACP_LAST_TOPIC_DONATE_EXPLAIN'	    => 'Indien je deze extensie leuk vind, overweeg dan een donatie voor een pizza.',
     'LAST_TOPIC_CONFIG_SAVED'         	=> 'Geavanceerde Actieve Onderwerpen opgeslagen',	
 	'ALLOW_LAST_TOPIC'					=> 'Inschakelen',
 	'ALLOW_LAST_TOPIC_EXPLAIN'			=> 'Schakel Geavanceerde Actieve Onderwerpen aan of uit',
@@ -61,21 +58,20 @@ $lang = array_merge($lang, array(
 	'LAST_DIRECTION_EXPLAIN'			=> 'Kies de richting van js - huidige opties zijn Boven of Onder',
 	'LAST_UP_DIRECTION'					=> 'Boven',
 	'LAST_DOWN_DIRECTION'				=> 'Onder',	
-	'LAST_TITLE'			            => 'Titel tekst',
-	'LAST_TITLE_EXPLAIN'			    => 'Kies de titel die zal worden weergegeven boven de extensie, vb: Laatste Actieve Onderwerpen.<br /> <strong>Opgelet:</strong> maximum 20 karakters',
+	'LAST_TITLETEXT'			        => 'Actieve topics',
     'LAST_POS'                          => 'Positie',
-    'LAST_POS_EXPLAIN'                  => 'Kies de positie. Bovenaan onder de navbar, zal worden weergegeven bovenaan de forum lijst.<br />Onderaan na de Statistieken, zal worden weergegeven onderaan de forum statistieken.',
+    'LAST_POS_EXPLAIN'                  => 'Kies de positie. Bovenaan het forum onder de navbar, zal worden weergegeven bovenaan de forum lijst.<br />Onderaan na de Statistieken, zal worden weergegeven onderaan de forum statistieken.',
     'LAST_AT_TOP'                       => 'Bovenaan onder de navbar',
 	'LAST_AT_FUT'                       => 'Onderaan na de Statistieken',
 	'LAST_ASPECT_A'                     => 'Panel bg3',
 	'LAST_ASPECT_B'                     => 'Forabg',
     // Buttons ON OFF	
-	'JSDISPLAY_NAVIGATION'		        => 'Schakel knoppen in',
-	'JSDISPLAY_NAVIGATION_EXPLAIN'		=> 'Hier kan je kiezen om de knoppen weer te geven boven de Geavanceerde Actieve Onderwerpen',	
+	'LAST_NAVIGATION'		        => 'Schakel knoppen in',
+	'LAST_NAVIGATION_EXPLAIN'		=> 'Hier kan je kiezen om de knoppen weer te geven boven de Geavanceerde Actieve Onderwerpen',
 	'PREVIOUS_SCROLL'			=> 'Terug',
 	'NEXT_SCROLL'				=> 'Vooruit',
 	'START_SCROLL'				=> 'Play',
 	'STOP_SCROLL'				=> 'Stop',
     // Permission groups	
-	'ACL_U_AT_ADV'	            => 'Kan Geavanceerde Actieve Onderwerpen bekijken',
+	'ACL_U_AT_ADV'	                => 'Kan Geavanceerde Actieve Onderwerpen bekijken',
 ));
