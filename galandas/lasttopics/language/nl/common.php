@@ -3,7 +3,7 @@
 *
 * @package phpBB Extension - Advanced Active Topics
 * @copyright (c) 2017 Galandas
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 //
 $lang = array_merge($lang, array(
 	'ACP_LAST_TOPIC'					=> 'Geavanceerde Actieve Onderwerpen',
-	'ACP_LAST_TOPIC_EXPLAIN'		    => 'Extensie Geavanceerde Actieve Onderwerpen door <a href="http://phpbb3world.altervista.org" target="_blank"><strong>Galandas</strong></a>.<br />Nederlandse vertaling door <a href="https://www.froddelpower.be" target="_blank"><strong>Solidjeuh</strong></a>',
+	'ACP_LAST_TOPIC_EXPLAIN'		    => 'Extensie Geavanceerde Actieve Onderwerpen door <a href="http://phpbb3world.altervista.org" target="_blank"><strong>Galandas</strong></a>.<br />Nederlandse vertaling door <a href="https://www.muziekpromo.net" target="_blank"><strong>Solidjeuh</strong></a>',
     'ACP_LAST_TOPIC_SETTINGS'			=> 'Inschakelen Uitschakelen',
 	'ACP_LAST_TOPIC_CONF'				=> 'Configuratie',
     'ACP_LAST_TOPIC_CONFS'			    => 'Instellingen',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'LAST_DIRECTION_EXPLAIN'			=> 'Kies de richting van js - huidige opties zijn Boven of Onder',
 	'LAST_UP_DIRECTION'					=> 'Boven',
 	'LAST_DOWN_DIRECTION'				=> 'Onder',	
-	'LAST_TITLETEXT'			        => 'Actieve topics',
+	'LAST_TITLETEXT'			        => 'Actieve onderwerpen',
     'LAST_POS'                          => 'Positie',
     'LAST_POS_EXPLAIN'                  => 'Kies de positie. Bovenaan het forum onder de navbar, zal worden weergegeven bovenaan de forum lijst.<br />Onderaan na de Statistieken, zal worden weergegeven onderaan de forum statistieken.',
     'LAST_AT_TOP'                       => 'Bovenaan onder de navbar',
